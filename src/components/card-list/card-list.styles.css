@@ -1,0 +1,13 @@
+.card-list {
+    width: 85vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    transform: translate(0);
+    transition: transform 0.25s ease-out;
+}
+.card-list :hover {
+
+    transform: scale(1.05);
+}
